@@ -22,15 +22,15 @@ This is the Hackintosh EFI Folder for Dell Precision 3630 Tower Workstation. The
 ## Working
 * CPU Turbo Boost
 * iGPU acceleration
-* Internal Speaker & Front panel 3.5mm HeadSet/HeadPhone jack & Line out
-* All front USB Ports
+* Internal Speaker & Front panel 3.5mm Headset/Headphone jack & Line out
+* All front USB ports
 * LAN & Wireless network
 * Sleep & Wakeup
 
 
 ## Known Issue
 * Need to enable Power Nap for sleep
-* Bluetooth can't connect Xbox controller 
+* Can't connect Xbox Wireless Controller whit Bluetooth
 * Apple Music subscription can't play Lossless and higher quality
 * Apple TV might not work
 
@@ -53,7 +53,7 @@ This is the Hackintosh EFI Folder for Dell Precision 3630 Tower Workstation. The
 
 ## Manual operation
 
-### Front panel combo 3.5mm jack detection
+### Front panel 3.5mm combo audio jack detection
 More details to see: [MicFix](https://github.com/WingLim/MicFix)
 
 ### Rear USB port
