@@ -38,7 +38,7 @@ This is the Hackintosh EFI Folder for Dell Precision 3630 Tower Workstation. The
 ## BIOS Settings
 * System Configuration → SATA Operation: ***AHCI***
 * Secure Boot → Secure Boot Enable: ***Disabled***
-* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Software controlled or Disabled**
+* Intel® Software Guard Extensions™ → Intel® SGX™ Enable: ***Software controlled or Disabled***
 * Virtualization Support → VT for Direct I/O: ***uncheck***
 * Power management → Deep Sleep Control: ***Disabled***
 * USB Wake Support: ***uncheck***
