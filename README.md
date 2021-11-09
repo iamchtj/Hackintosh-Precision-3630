@@ -53,7 +53,7 @@ This is the Hackintosh EFI Folder for Dell Precision 3630 Tower Workstation. The
 
 ## Fon Fix
 
-### Front panel combo 3.5 jack detection
+### Front panel combo 3.5mm jack detection
 More details to see: [MicFix](https://github.com/WingLim/MicFix)
 
 ### Rear USB port
