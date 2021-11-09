@@ -9,7 +9,7 @@ This is the Hackintosh EFI Folder for Dell Precision 3630 Tower Workstation. The
 
 
 ## Hardware Specifications
-* **Desktop Computer**: [Precision 3630 Tower Workstation](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/precision-3630-tower-workstation/spd/precision-3630-workstation)
+* **Desktop Computer**: [Dell Precision 3630 Tower Workstation](https://www.dell.com/en-us/work/shop/desktops-all-in-one-pcs/precision-3630-tower-workstation/spd/precision-3630-workstation)
 * **CPU**: [Intel® Core™ i7-8700](https://ark.intel.com/content/www/us/en/ark/products/126686/intel-core-i78700-processor-12m-cache-up-to-4-60-ghz.html)
 * **iGPU**: Intel® UHD Graphics 630
 * **RAM**: 32GB DDR4 2666 Daul Channel
