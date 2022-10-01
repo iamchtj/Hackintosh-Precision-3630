@@ -1,7 +1,7 @@
 # Hackintosh-Precision-3630-Tower-Workstation
 
 
-**Opencore Bootloader 0.7.5. Tested on Big Sur 11.6.1**
+**Opencore Bootloader 0.8.4. Tested on Monterey 12.6**
 
 
 ## Introdution
