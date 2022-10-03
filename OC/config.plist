@@ -294,7 +294,7 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>BwCbPg==</data>
+                    <data>AwCRPg==</data>
                     <key>enable-cdclk-frequency-fix</key>
                     <data>AQAAAA==</data>
                     <key>enable-hdmi20</key>
@@ -668,9 +668,45 @@
                     <key>Comment</key>
                     <string>V1.6.1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>SMCRadeonGPU.kext</string>
+                    <key>Comment</key>
+                    <string>V0.3.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/SMCRadeonGPU</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>RadeonSensor.kext</string>
+                    <key>Comment</key>
+                    <string>V0.3.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RadeonSensor</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -999,7 +1035,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>chris1111/Minimal</string>
+                <string>Acidanthera\GoldenGate</string>
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
@@ -1247,7 +1283,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v debug=0x100 alcverbs=1 -wegnoegpu</string>
+                    <string>-v debug=0x100 alcverbs=1</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1314,7 +1350,7 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>C07944310QXKXPGJA</string>
+                <string>C02920300J9KGQG8C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1326,11 +1362,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>Macmini8,1</string>
+                <string>iMac19,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C07ZM0DFJYVX</string>
+                <string>C02YQ05LJWDW</string>
                 <key>SystemUUID</key>
-                <string>4C4C4544-0035-4310-8035-B5C04F375432</string>
+                <string>A6CA0455-64CE-49D1-A411-50A6D13A5585</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
