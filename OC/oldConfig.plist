@@ -668,7 +668,7 @@
                     <key>Comment</key>
                     <string>V1.6.1</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
                     <key>MaxKernel</key>
@@ -1022,6 +1022,8 @@
                 <integer>0</integer>
                 <key>HibernateMode</key>
                 <string>None</string>
+                <key>HibernateSkipsPicker</key>
+                <false/>
                 <key>HideAuxiliary</key>
                 <false/>
                 <key>LauncherOption</key>
@@ -1283,7 +1285,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v debug=0x100 alcverbs=1 agdpmod=pikera</string>
+                    <string>-v debug=0x100 alcverbs=1</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1408,6 +1410,12 @@
                 <integer>0</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerDwellClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellDoubleClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellRadius</key>
+                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
@@ -1614,6 +1622,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>

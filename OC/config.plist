@@ -324,7 +324,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.2</string>
+                    <string>V1.6.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -342,7 +342,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -360,7 +360,7 @@
                     <key>BundlePath</key>
                     <string>SMCDellSensors.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -378,7 +378,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -396,7 +396,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V1.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -414,7 +414,7 @@
                     <key>BundlePath</key>
                     <string>CPUFriend.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.4</string>
+                    <string>V1.2.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -486,7 +486,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.5</string>
+                    <string>V1.8.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -576,7 +576,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.1</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -594,7 +594,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -612,7 +612,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.1</string>
+                    <string>V2.2.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -648,7 +648,7 @@
                     <key>BundlePath</key>
                     <string>GenericCardReaderFriend.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.1</string>
+                    <string>V1.0.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -666,7 +666,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.1</string>
+                    <string>V1.6.5</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -684,7 +684,7 @@
                     <key>BundlePath</key>
                     <string>SMCRadeonGPU.kext</string>
                     <key>Comment</key>
-                    <string>V0.3.1</string>
+                    <string>V0.3.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -702,7 +702,7 @@
                     <key>BundlePath</key>
                     <string>RadeonSensor.kext</string>
                     <key>Comment</key>
-                    <string>V0.3.1</string>
+                    <string>V0.3.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1022,6 +1022,8 @@
                 <integer>0</integer>
                 <key>HibernateMode</key>
                 <string>None</string>
+                <key>HibernateSkipsPicker</key>
+                <false/>
                 <key>HideAuxiliary</key>
                 <false/>
                 <key>LauncherOption</key>
@@ -1408,6 +1410,12 @@
                 <integer>0</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerDwellClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellDoubleClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellRadius</key>
+                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
@@ -1614,6 +1622,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
